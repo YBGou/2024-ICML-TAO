@@ -56,4 +56,4 @@ If this codebase is useful for your works, please cite the following paper:
 
 #### Acknowledgement
 
-This repo is built upon the open-source repo of [Guided Diffusion](https://github.com/openai/guided-diffusion), [GDP](https://github.com/Fayeben/GenerativeDiffusionPrior) and [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch), thanks for their excellent works.
+This repo is built upon the open-source repo of [GD](https://github.com/openai/guided-diffusion), [GDP](https://github.com/Fayeben/GenerativeDiffusionPrior) and [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch), thanks for their excellent works.
