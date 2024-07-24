@@ -8,6 +8,8 @@ The code is tested with Pytorch 2.0.1 and CUDA 11.7 on Ubuntu 20.04. Run the fol
 
     pip install -r requirements.txt
 
+Perhaps you also need to enter the folder `gen_dif_pri` to run `pip install -e.`, and enter the folder `img_qua_ass` to run `python setup.py develop` for initialization.
+
 #### Pretrained Model and Datasets
 
 Please download the pretrained unconditional DDPM on ImageNet-256 (i.e., 256x256_diffusion_uncond.pt) from [this page](https://github.com/openai/guided-diffusion) and put it in folder `test_models`. This work adopts an unconditional pre-trained DDPM as foundation model for OIR due to the following considerations. First, it captures rich knowledges of generating various high-quality visual scenarios, which could be regarded as a generic pretraining for OIR targeting at producing clean images. Second, it is degradation-agnostic and any degradations in the test data could be considered as unforeseen.
